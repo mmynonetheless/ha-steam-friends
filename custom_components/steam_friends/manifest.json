@@ -1,0 +1,13 @@
+{
+  "domain": "steam_friends",
+  "name": "Steam Friends List",
+  "version": "1.0.0",
+  "requirements": ["aiohttp>=3.8.0"],
+  "dependencies": [],
+  "codeowners": ["@mmynonetheless"],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "documentation": "https://github.com/mmynonetheless/ha-steam-friends",
+  "issue_tracker": "https://github.com/mmynonetheless/ha-steam-friends/issues",
+  "integration_type": "service"
+}
