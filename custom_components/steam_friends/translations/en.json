@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Steam",
+        "description": "Enter your Steam API key and Steam ID",
+        "data": {
+          "api_key": "API Key",
+          "steam_id": "Steam ID"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid API key or Steam ID",
+      "cannot_connect": "Failed to connect to Steam API",
+      "unknown": "Unknown error occurred"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure Steam Friends",
+        "data": {
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  }
+}
