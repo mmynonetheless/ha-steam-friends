@@ -1,0 +1,12 @@
+refresh_friends:
+  name: Refresh Friends List
+  description: Manually refresh the Steam friends list
+  fields:
+    entity_id:
+      name: Entity
+      description: The Steam Friends sensor to refresh
+      required: true
+      selector:
+        entity:
+          integration: steam_friends
+          domain: sensor
